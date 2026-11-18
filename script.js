@@ -149,7 +149,7 @@ function revealSurprise() {
   if (!music || !toggle || !icon || !label) return;
 
   /* Set volume once; loop is already set via the HTML attribute */
-  music.volume = 0.3;
+  music.volume = 0.5;
 
   /* ---- Update button to reflect actual audio state ---------- */
   function updateMusicButton() {
